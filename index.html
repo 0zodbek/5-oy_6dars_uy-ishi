@@ -19,14 +19,14 @@
   <body>
     <main>
       <div class="inputswrapper">
-        <div class="wrapper">
+        <form class="form">
           <h1>Set up your account</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry.
           </p>
-          <input type="text" id="vj" placeholder="VJ" /><br />
-          <input type="text" id="rathod" placeholder="Rathod" /><br />
+          <input type="text" id="vj" placeholder="First name" /><br />
+          <input type="text" id="rathod" placeholder="Last name" /><br />
           <input type="number" id="number" placeholder="Mobile Number" /><br />
           <input type="email" id="email" placeholder="Email Address" /><br />
           <input type="password" id="passwodr" placeholder="Password" /><br />
@@ -35,14 +35,34 @@
             id="confirmpassword"
             placeholder="Confirm Password"
           /><br />
-          <input type="checkbox" value="" id="check" /> <label id="label" for="check">Confirm Password</label><br />
+          <input type="checkbox" value="" id="check" />
+          <label id="label" for="check">Confirm Password</label><br />
           <button id="btn">Continue</button><br />
-          <hr />
+          <div class="hr"></div>
           <h3>
             Already have an account ?
             <a id="sing" href="#">Sign in <i class="fa fa-arrow-right"></i></a>
           </h3>
-        </div>
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>first name</th>
+              <th>Last name</th>
+              <th>Phone number</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr id="tr2">
+              <th id="name1"></th>
+              <th id="surname"></th>
+              <th id="phonenumber"></th>
+              <th id="Email"></th>
+            </tr>
+          </thead>
+          </table>
+          
       </div>
     </main>
   </body>

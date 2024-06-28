@@ -7,17 +7,17 @@
 main{
     margin: auto;
     width: 1920px;
-    height: 1080px;
+    min-height: 1080px;
     /* background-image: url(../images/bgimage.png); */
     background-color: #010101;
 }
 .inputswrapper{
 width: 1393px;
-height: 1080px;
+min-height: 1080px;
 margin-left: 527px;
 background-color: #242424;
 }
-.wrapper{
+.form{
 width: 800px;
 height: 1080px;
 margin: auto;
@@ -56,8 +56,10 @@ color: #fff;
 margin-bottom: 50px;
 width: 24px;
 height: 24px;
+cursor: pointer;
 }
 #label{
+    cursor: pointer;
     height: 24px;
     width: 146px;
     font-size: 16px;
@@ -69,12 +71,16 @@ height: 24px;
     top: 746px;
     margin-left: 16px;
 }
-hr{
+.hr{
 margin-top: 50px;
 margin-bottom: 50px;
-color: #3D3D3D;
+width: 800px;
+height: 2px;
+color: #ffffff;
+border-bottom: 2px solid #3d3d3d;
 }
 #btn{
+    cursor: pointer;
     width: 200px;
     height: 48px;
     top: 820px;
@@ -94,7 +100,8 @@ h3{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color:#7f7f7f
+    color:#7f7f7f;
+    margin-bottom:50px;
 }
 a{
     font-size: 16px;
@@ -102,4 +109,15 @@ a{
     line-height: 24px;
     color:#4B72C2;
     text-decoration: none;
+}
+table{
+height: 70px;
+border-collapse: collapse;
+}
+th{
+width: 420px;
+height: 50px;
+border:1px solid #b2b2b2;
+font-size: 24px;
+color: #ababab;
 }
